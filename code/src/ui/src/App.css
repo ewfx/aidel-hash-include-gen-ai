@@ -1,0 +1,305 @@
+/* General styling for the app */
+.App {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F1F3F4; /* Light Gray background */
+  color: #222629; /* Dark text color for contrast */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures that the app fills at least the viewport height */
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0288D1; /* Blue background for the navbar */
+  color: white;
+  padding: 20px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .app-name {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar .navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .navbar-links a:hover {
+  background-color: #1565C0; /* Slightly darker shade of blue on hover */
+}
+
+/* File upload box styles */
+.file-upload-box {
+   /* Blue border */
+  
+  margin: 40px auto;
+  width: 40%;
+  text-align: center;
+  
+}
+.file-upload-box input[type="file"] {
+  display: none;
+}
+.file-upload-box label {
+  display: inline-block;
+  background-color: #0288d1;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-align: center;
+}
+.file-upload-box label:hover {
+  background-color: #0277bd;
+}
+.file-name {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #222629;
+  font-weight: bold;
+}
+
+
+/* Styling for the file input button */
+.file-upload-box input[type="file"] {
+  padding: 10px 10px;  /* Adds padding around the text inside the button */
+  font-size: 16px;
+  border: 2px solid #0288D1; /* Blue border */
+  border-radius: 6px;  /* Rounded corners */
+  background-color: #FFFFFF; /* White background for clarity */
+  color: #222629;  /* Dark text color */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 10%; /* Ensure the input takes full width of the container */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Hover effect for the file input */
+.file-upload-box input[type="file"]:hover {
+  background-color: #E3F2FD;  /* Very light blue background on hover */
+  border-color: #0288D1;  /* Blue border on hover */
+}
+
+/* Data Table styles (Full width, no constraints) */
+.data-table {
+  margin-top: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white; /* White background for the table */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 98%; /* Full width */
+  margin: 40px 0;
+  margin-left:15px; /* No auto margin, full width */
+}
+
+.data-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th, .data-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #E1E1E1; /* Light gray border for table cells */
+}
+
+.data-table th {
+  background-color: #222629;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center; /* Centering table headers */
+  padding: 12px 15px;
+}
+
+.data-table td {
+  font-size: 14px;
+  color: #222629;
+}
+/* Ensure each score is displayed in its own box */
+/* Ensure each score is displayed in its own box */
+/* Remove risk-score and confidence-score badge styles */
+/* Risk Score Text Colors */
+.text-red {
+  color: red !important;
+  font-weight: bold;
+}
+
+.text-yellow {
+  color: orange !important;
+  font-weight: bold;
+}
+
+.text-green {
+  color: green !important;
+  font-weight: bold;
+}
+
+/* Confidence Score Text Colors */
+.text-green {
+  color: green !important;
+  font-weight: bold;
+}
+
+.text-yellow {
+  color: orange !important;
+  font-weight: bold;
+}
+
+.text-red {
+  color: red !important;
+  font-weight: bold;
+}
+
+
+
+
+/* Button styles (Summary, Download, Report) */
+button {
+  background-color: #0288D1;  /* Blue background */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button.download {
+  background-color: white;      /* White background */
+  color: #0288D1;               /* Blue text */
+  border: 2px solid #0288D1;    /* Blue border */
+}
+
+/* Download Button Hover Effect */
+button.download:hover {
+  background-color: #0288D1;
+  color: white;
+}
+
+button:hover {
+  background-color: #1565C0; /* Slightly darker blue on hover */
+}
+
+button.Download {
+  color: #30759a;
+  background-color: white; /* Red for Report button */
+}
+
+button.report {
+  background-color: #D32F2F; /* Red for Report button */
+}
+
+button.report:hover {
+  background-color: #B71C1C; /* Darker red on hover */
+}
+
+/* Footer styles */
+.footer {
+  background-color: #222629;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;  /* Push the footer to the bottom */
+}
+
+.footer a {
+  color: #0288D1;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+/* Search Bar Styling */
+/* Search Bar Styling */
+.search-container {
+  position: relative;
+  width: 600px;
+  margin: 20px auto;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 15px 10px 35px; /* Added left padding for icon space */
+  border: 2px solid #0288D1;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+}
+
+.search-input:focus {
+  border-color: #1565C0;
+}
+
+/* Search Icon Styling */
+.search-icon {
+  position: absolute;
+  left: 12px; /* Adjusted position */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #0288D1;
+  pointer-events: none; /* Make the icon unclickable */
+  font-size: 18px;
+}
+
+
+
+/* Styling for the file input button */
+.file-upload-box input[type="file"] {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid #0288D1; /* Matches your blue theme */
+  border-radius: 8px; /* Subtle rounded corners */
+  background-color: white; /* Keeps the background clean */
+  color: #222629; /* Dark text color for readability */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 50%; /* Takes full width of the container */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Improving the file selector button inside the input */
+.file-upload-box input[type="file"]::file-selector-button {
+  padding: 10px 10px;
+  background-color: #0288D1; /* Your theme blue */
+  color: white; /* Text color for contrast */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+/* Hover Effect */
+.file-upload-box input[type="file"]::file-selector-button:hover {
+  background-color: #1565C0; /* Darker blue on hover */
+}
+
