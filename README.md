@@ -151,6 +151,6 @@ npm start
 
 - **Nirvik Agarwal** - [GitHub](https://github.com/nirvikagarwal) | [LinkedIn](https://in.linkedin.com/in/nirvik-agarwal)
 - **Lakshetha T** - [GitHub](https://github.com/lakshethaaa) | [LinkedIn](https://www.linkedin.com/in/lakshetha-t-99107a225/)
-- **Kaushik S** - [GitHub](https://github.com/Kaushik1223) | [LinkedIn](https://www.linkedin.com/in/kaushik1223/)
+- **S Kaushik** - [GitHub](https://github.com/Kaushik1223) | [LinkedIn](https://www.linkedin.com/in/kaushik1223/)
 - **Chanukya Balli** - [GitHub](https://github.com/Chanukya0426) | [LinkedIn](https://www.linkedin.com/in/balli-chanukya-52191123a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - **Shreeraj V. Bhamare** - [GitHub](https://github.com/shreerajbhamare) | [LinkedIn](https://www.linkedin.com/in/shreerajbhamare/)
