@@ -1,0 +1,3 @@
+Transaction ID,Date,Sender Name,Sender Beneficiary,Receiver Name,Amount,Currency Exchange,Transaction Type,Reference,Additional Notes
+TXN-2023-7C2D,2023-08-15 14:25:00,Quantum Holdings Ltd,Maria Gonzalez,Golden Sands Trading FZE,"950,000.00",EUR -> USD (Rate: 1.12)  ,SWIFT  ,Commodity Trade Settlement – Contract #DX-889,Invoice attached: 'Oil Equipment Procurement' (PDF missing metadata).
+TXN-2023-5A9B,2023-08-15 14:22:00,Global Horizons Consulting LLC,,Bright Future Nonprofit Inc,"49,850.00",N/A,Wire Transfer,Charitable Donation - Ref #DR-2023-0815,

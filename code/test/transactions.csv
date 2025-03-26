@@ -1,0 +1,4 @@
+Transaction ID,Date,Sender Name,Sender Account,Sender Address,Receiver Name,Receiver Account,Receiver Address,Amount,Transaction Type
+TXN-2023-5A9B,2023-08-15 14:22:00,Global Horizons Consulting LLC,"IBAN CH56 0483 5012 3456 7800 9 (Swiss bank)","Rue du Marché 17, Geneva, Switzerland",Bright Future Nonprofit Inc,"987654321 (Cayman National Bank, KY)","P.O. Box 1237, George Town, Cayman Islands",49850.00,Wire Transfer
+TXN-2023-7C8D,2023-09-10 11:30:00,Sunrise Trading Co,"IBAN DE89 3704 0044 0532 0130 00 (Deutsche Bank)","Friedrichstr. 12, Berlin, Germany",Hope Foundation,"1122334455 (HSBC UK)","10 Downing Street, London, UK",105000.50,Wire Transfer
+TXN-2023-9X0Y,2023-11-20 16:45:00,FutureTech Solutions,"IBAN US29 1234 5678 9101 1121 (Bank of America)","500 Silicon Valley Blvd, CA, USA",Global Aid Organization,"5566778899 (Barclays Bank)","99 Charity Street, Nairobi, Kenya",75000.00,ACH Payment

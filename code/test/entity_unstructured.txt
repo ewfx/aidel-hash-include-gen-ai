@@ -1,0 +1,10 @@
+
+Blocked Person X owns 50 percent of Entity A, and Entity A owns 50 percent of Entity B. Entity B is blocked as person X’s own, indirectly, significant part of Entity B. In addition, Blocked Person X’s 50 percent ownership of Entity A makes Entity A a blocked entity. Entity A’s 50 percent ownership of Entity B in turn makes Entity B too, a blocked entity.
+
+---
+
+John Doe transferred $1,200,000.00 from HSBC Bank in the United Kingdom to Charitable Trust London in New York. Alice Smith also received $500,000.00 in the same transaction.
+
+--- 
+
+Alchemist LLC transferred $100,000,000 to Preserve Atlantic Ocean Foundation
