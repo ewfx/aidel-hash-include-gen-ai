@@ -22,15 +22,17 @@ A5 --> A4
 %% Data Preprocessing and Extraction
 A4 --> B1[Feature Extraction]
 B1 --> B2[Data Cleansing]
-B2 --> C1[SEC-BERT]
 
 %% Summarization
 B2--> S1[
-        Summarization
-        Transformer
         #40;BART-Large-CNN#41;
+        Summarization Transformer
     ]
-S1 --> C2[FinBERT Sentiment]
+S1 --> C1[
+        SEC-BERT
+        #40;SEC Filings Summarization#41;
+    ]
+S1 --> C2[FinBERT Sentiment Analysis]
 S1 --> C3[RoBERTa Ensemble]
 
 %% Risk Analysis and Sentiment
@@ -49,7 +51,11 @@ E2 --> F1
 E3 --> F1
 
 %% Final Risk Score and Explainability
-F1 --> G1[Final Risk Score + Reasoning]
+F1 --> G1[
+        Final Risk Score
+        +
+        Reasoning
+    ]
 G1 --> H1[SHAP + LIME for Explainability]
 H1 --> I1[Explainability Report]
 

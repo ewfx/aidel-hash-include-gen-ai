@@ -68,3 +68,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Transaction Management System
+
+## 📌 Overview
+This is a **Transaction Management System** built using **React.js**. It allows users to:
+- 🔍 **Search** for transactions by ID, Payer, or Receiver.
+- 📂 **Upload a file** for processing.
+- 📄 **Download transaction details**.
+- 📊 **View transaction summaries** in a pop-up.
+- 🚨 **Analyze risk scores** (e.g., detect fraudulent transactions).
+- 📝 **Report transactions** with a confirmation popup.
+
+## 🚀 Features
+- **Search Bar**: Users can search transactions based on ID, Payer, or Receiver.
+- **File Upload**: Upload a transaction file with a clean UI.
+- **Download Button**: Allows downloading transaction details as a dummy file.
+- **Summary Popup**: Shows transaction details along with a **Risk Score Analysis**.
+- **Report Button**: Click to report a transaction with a success message.
+- **Responsive Design**: Optimized for different screen sizes.
+
+## 🛠️ Tech Stack
+- **React.js** - Frontend framework
+- **CSS** - Styling for UI components
+- **React Icons** - Used for adding icons
+- **JavaScript (ES6)** - For functionality and event handling
+
+## 📂 Project Structure
+/src ├── components/ │ ├── Navbar.js # Navigation Bar │ ├── DataTable.js # Transaction Table ├── App.js # Main Application ├── App.css # Stylesheet ├── index.js # Entry Point ├── package.json # Dependencies & Scripts
+
+

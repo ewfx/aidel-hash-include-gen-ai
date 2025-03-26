@@ -1,18 +1,17 @@
-// import React from 'react';
+import React from "react";
+import "../App.css"; // Ensure styles are applied
 
-// function Navbar() {
-//   return (
-//     <nav className="navbar">
-//       <div className="navbar-left">
-//         <span className="app-name">Risk Analysis</span>
-//       </div>
-//       <div className="navbar-links">
-//         <a href="#home">Home</a>
-//         <a href="#contact">Contact</a>
-//         <a href="#about">About</a>
-//       </div>
-//     </nav>
-//   );
-// }
+function Navbar() {
+  return (
+    <div className="navbar">
+      <div className="app-name">Risk Analysis</div>
+      <div className="navbar-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  );
+}
 
-// export default Navbar;
+export default Navbar;
