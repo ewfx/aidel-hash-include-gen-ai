@@ -34,6 +34,9 @@ With AERIS, we aim to empower financial analysts and compliance teams with an in
 <br />
 ![Transactions Summary](/artifacts/demo/UI%20Screenshots/TransactionsSummary.png)
 
+![Presentation](/artifacts/demo/presentation.pdf)
+![Demo](https://drive.google.com/drive/folders/1urYtKJJTK58e3jBJbD-J-1a5ubKv7Xe9?usp=drive_link)
+
 ## 💡 Inspiration
 
 The inspiration behind **AERIS** came from recognizing the challenges financial institutions face in identifying and mitigating risks efficiently. Traditional risk analysis processes are often manual, time-consuming, and prone to errors, making it difficult to detect emerging threats in real time.
@@ -151,6 +154,6 @@ npm start
 
 - **Nirvik Agarwal** - [GitHub](https://github.com/nirvikagarwal) | [LinkedIn](https://in.linkedin.com/in/nirvik-agarwal)
 - **Lakshetha T** - [GitHub](https://github.com/lakshethaaa) | [LinkedIn](https://www.linkedin.com/in/lakshetha-t-99107a225/)
-- **Kaushik S** - [GitHub](https://github.com/Kaushik1223) | [LinkedIn](https://www.linkedin.com/in/kaushik1223/)
+- **S Kaushik** - [GitHub](https://github.com/Kaushik1223) | [LinkedIn](https://www.linkedin.com/in/kaushik1223/)
 - **Chanukya Balli** - [GitHub](https://github.com/Chanukya0426) | [LinkedIn](https://www.linkedin.com/in/balli-chanukya-52191123a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - **Shreeraj V. Bhamare** - [GitHub](https://github.com/shreerajbhamare) | [LinkedIn](https://www.linkedin.com/in/shreerajbhamare/)
