@@ -34,6 +34,9 @@ With AERIS, we aim to empower financial analysts and compliance teams with an in
 <br />
 ![Transactions Summary](/artifacts/demo/UI%20Screenshots/TransactionsSummary.png)
 
+![Presentation](/artifacts/demo/presentation.pdf)
+![Demo](https://drive.google.com/drive/folders/1urYtKJJTK58e3jBJbD-J-1a5ubKv7Xe9?usp=drive_link)
+
 ## 💡 Inspiration
 
 The inspiration behind **AERIS** came from recognizing the challenges financial institutions face in identifying and mitigating risks efficiently. Traditional risk analysis processes are often manual, time-consuming, and prone to errors, making it difficult to detect emerging threats in real time.
